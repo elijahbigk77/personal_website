@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
 html {
   height:100%;
   background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
@@ -37,4 +43,35 @@ nav ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 35, 122, 0.7);
 }
+
+.title {
+  font-size: larger;
+  font-family:cursive;
+  text-align: center;
+  color: rgb(25, 0, 255);
+  animation-name: title-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes title-animation {
+  0%   {color: red;}
+  10%  {color: yellow;}
+  20% {color: darkgoldenrod;}
+  30% {color:darkgray;}
+  40% {color:saddlebrown;}
+  50%  {color: blue;}
+  60% {color:salmon;}
+  70% {color:slategrey;}
+  80% {color:black;}
+  90% {color:darkorange;}
+  100% {color: green;}
+}
+
+
+
+
+
 
